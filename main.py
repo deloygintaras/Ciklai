@@ -111,7 +111,16 @@
 # žingsnį. Išveskite tik tokius skaičius kokius vartotojas pasirinko (lyginius
 # arba nelyginius).
 
-
+# pradzia = int(input("Pasirinkite rėžio pradžią\n"))
+# pabaiga = int(input("Pasirinkite rėžio pabaigą\n"))
+# zingsnis = int(input("Įveskite žingsnį\n"))
+# pasirinkimas = input("Norite matyti lyginius ar nelyginius skaičius? (lyginius/nelyginius)\n")
+# if zingsnis == 0 or (pradzia < pabaiga and zingsnis < 0) or (pradzia > pabaiga and zingsnis > 0):
+#     print("Režis - klaidingas")
+# else:
+#     for i in range(pradzia, pabaiga + (1 if zingsnis > 0 else -1), zingsnis):
+#         if (pasirinkimas == 'lyginius' and i % 2 == 0) or (pasirinkimas == 'nelyginius' and i % 2 != 0):
+#             print(i)
 
 
 
