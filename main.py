@@ -161,15 +161,26 @@
 
 
 # 15.Raskite visų skaičių nuo 1 iki 100 sumą.
-
+suma = 0
+# for i in range(100):
+#     suma += i
+# print(f"gauta suma = {suma}")
 
 
 # 16.Raskite visų lyginių skaičių nuo 20 iki 50 sumą.
-
+# suma = 0
+# for i in range(20, 50):
+#     if i % 2 == 0:
+#         suma += i
+# print(f"lyginiu gauta suma = {suma}")
 
 
 # 17.Raskite visų nelyginių skaičių nuo 30 iki 60 sumą.
-
+# suma = 0
+# for i in range(30, 60):
+#     if i % 2 != 0:
+#         suma += i
+# print(f"nelyginiu gauta suma = {suma}")
 
 
 # 18.Rasti visų skaičių, žemesnių už 1000 ir kurie dalinasi iš 3 arba 5, sumą.
@@ -177,6 +188,8 @@
 # Visi skaičiai mažesni už 10 ir kurie dalinasi iš 3 arba 5 yra: 3, 5, 6, 9.
 # Šių skaičių suma yra 23.
 # Turite gauti 233168 atsakymą.
+
+
 
 
 
