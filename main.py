@@ -132,3 +132,73 @@
 # *****
 # (papildomai) leiskite vartotojui pasirinkti kokio dydžio eglutė turėtų būti
 # išvesta.
+
+# egle = int(input("Iveskite eglutes dydi simboliais\n"))
+# for i in range(1, egle, + 1):
+#     print('*' * i)
+
+# 13.Leiskite vartotojui įvesti bet kokį žodį, bei pasirinkti po kiek kartų turėtų
+# būti pakartojama kiekviena raidė. Su ciklo pagalba išveskite kiekvieną
+# raidę iš žodžio atskiroje eilutėje, taip pat, tą raidę eilutėje kartokite tiek
+# kartų kiek pasirinko vartotojas (16 pvz).
+# zodis = str(input("Iveskite norima zodi\n"))
+# pakart = int(input("kiek kartu turi buti pakartojama kiekviena raide?\n"))
+# for i in zodis:
+#     print(i * pakart)
+
+
+
+# 14.(papildomai, sunkiau) Be daugybos veiksmo programoje, sudauginkite du
+# skaičius.
+# a = 3
+# b = 1
+# def multiply(a, b):
+#     result = 0
+#     for _ in range(b):
+#         result += a
+#     return result
+# print(f"{a} * {b} = {multiply(a, b)}")
+
+
+# 15.Raskite visų skaičių nuo 1 iki 100 sumą.
+
+
+
+# 16.Raskite visų lyginių skaičių nuo 20 iki 50 sumą.
+
+
+
+# 17.Raskite visų nelyginių skaičių nuo 30 iki 60 sumą.
+
+
+
+# 18.Rasti visų skaičių, žemesnių už 1000 ir kurie dalinasi iš 3 arba 5, sumą.
+# Pavyzdys:
+# Visi skaičiai mažesni už 10 ir kurie dalinasi iš 3 arba 5 yra: 3, 5, 6, 9.
+# Šių skaičių suma yra 23.
+# Turite gauti 233168 atsakymą.
+
+
+
+
+# 19.The "Fizz-Buzz test" is an interview question designed to help filter out the
+# 99.5% of programming job candidates who can't seem to program their
+# way out of a wet paper bag. The text of the programming assignment is
+# as follows:
+#
+# "Write a program that prints the numbers from 1 to 100. But for multiples
+# of three print “Fizz” instead of the number and for the multiples of five
+# print “Buzz”. For numbers which are multiples of both three and five print
+# “FizzBuzz”."
+
+
+# 20.(sunkesnė) Parašyti for ciklą, kuris išvestų norimą kiekį fibonačiaus skaičių
+# į ekraną. Fibonačiaus sekoje kiekvienas skaičius yra lygus prieš jį ėjusių
+# dviejų skaičių sumai: 1, 1, 2, 3, 5, 8, 13, 21...
+# 1. Susikurkite tris sveikųjų skaičių kintamuosius, kurie jums padės tai pasiekti.
+# 1. Pirmi du kintamieji saugos paskutinius du skaičius.
+# 2. Trečiasis bus šių pirmų dviejų skaičių suma.
+# 2. Pirmus du skaičius išveskite ne cikle, o prieš jį ir ciklą pradėkite vykdyti nuo 2, o ne nuo 0.
+# 3. Kiekvieno ciklo metu turite perskaičiuot trečiąjį skaičių (pirmų dviejų skaičių sudėtis),
+# tuomet pirmasis skaičius yra lygus antram, o antrasis lygus trečiam, išvesti į ekraną trečią
+# skaičių.
