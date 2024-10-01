@@ -74,14 +74,52 @@
 # kad tai būtų validu (pradžia turi būti mažesnė nei pabaiga). Jei rėžiai
 # tinkami, tuomet vykdyti for, kuris iš duotų skaičių išvestų visus nelyginius
 # skaičius arba tuos, kurie dalinasi iš 8.
-
-
+#
+# kint1 = 1
+# kint2 = 10
+# if kint1 < kint2:
+#     print("Nustatyti reziai - tinkami")
+#     for i in range(kint1, kint2 + 1):
+#         if i % 2 != 0 or i % 8 == 0:
+#             print(i)
+# else:
+#     print("Klaida")
 
 # 9. Leiskite vartotojui įvesti savo vardą. Ciklą for vykdykite tiek kartų kiek
 # tame varde yra raidžių. Visais atvejais išveskite tą patį pasisveikinimą,
 # pavyzdžiui "Labas, Ieva" (ši eilutė kartotųsi 4 kartus).
 
+# klientas = input("iveskite savo varda\n")
+# raides = len(klientas)
+# print(raides)
+# for i in range(raides):
+#     print(f"Labas, {klientas}")
+
+
 
 # 10.Susikurkite tokį ciklą: for elementas in [88, 65, 21, 26, 47]
 # Iš duotų skaičių išveskite visus skaičius, kurie yra lyginiai.
 
+# for elementas in [88, 65, 21, 26, 47]:
+#     if elementas % 2 == 0:
+#         print(f"{elementas} - lyginis")
+
+
+# 11.Leiskite vartotojui nurodyti rėžių pradžią, pabaigą, žingsnį. Taip pat, kokius
+# skaičius jis nori matyti (lyginius ar nelyginius). Patikrinkite ar rėžiai tinkami,
+# jei taip vykdykite ciklą, kuris eitų per nurodytą rėžių, darant atitinkamą
+# žingsnį. Išveskite tik tokius skaičius kokius vartotojas pasirinko (lyginius
+# arba nelyginius).
+
+
+
+
+
+# 12.Su for pagalba, pamėginkite išvesti tokią eglutę:
+# *
+# **
+# ***
+# ****
+# *****
+# (papildomai) leiskite vartotojui pasirinkti kokio dydžio eglutė turėtų būti
+# išvesta.
